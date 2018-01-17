@@ -1,0 +1,33 @@
+Homework 16_1_2018 Generics
+
+
+1. What is one benefit of using generics in Java classes?
+
+Using generics makes the use of classes more flexible by allowing the
+instantiation of different types. (eg. double, int, string, boolean)
+
+2. Name an example of a generic class that we have used in Java?
+
+When we use a list or ArrayList we actually use a generic class that
+uses certain TYPES of objects.
+
+
+3. What is the syntax for declaring a generic class?
+
+public class Example<T>{}
+
+public T operation(){}
+
+4. At what point does the generic type get specified?
+
+When it is instantiated.
+
+5. Can generic types be of primitive type?
+
+Yes, it can be used for integer as shown in the example.
+
+6. Can a generic class take more than one type parameters?
+
+If it is given two or more placeholders, then yes it can take more than one.
+
+i.e. public class Example< T, V >{}
